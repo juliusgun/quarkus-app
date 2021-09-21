@@ -43,6 +43,11 @@ Change java class, then Quarkus will hot deploy it.
 
 ## Configure the following properties in your application.properties file:
 
+Set the Docker build strategy:
+```bash
+quarkus.openshift.build-strategy=docker
+```
+
 (Optional) If you are using an untrusted certificate, configure the KubernetesClient:
 ```bash
 quarkus.kubernetes-client.trust-certs=true
