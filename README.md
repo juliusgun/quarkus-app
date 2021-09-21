@@ -12,12 +12,12 @@ Or, generate from project skeleton
 
 ```bash
 mvn io.quarkus.platform:quarkus-maven-plugin:2.2.3.Final:create \
-    -DprojectGroupId=com.julius.app.quarkus \
-    -DprojectArtifactId=quarkus-app \
-    -DclassName="com.julius.app.quarkus.HelloWorld" \
-    -Dpath="/hello" \
-    -Dextensions="openshift"
- ```   
+ -DprojectGroupId=com.julius.app.quarkus \
+ -DprojectArtifactId=quarkus-app \
+ -DclassName="com.julius.app.quarkus.HelloWorld" \
+ -Dpath="/hello" \
+ -Dextensions="openshift"
+ ```
     
 ## Run in DEV mode
 
