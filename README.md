@@ -11,11 +11,11 @@ git clone https://github.com/juliusgun/quarkus-app.git
 Or, generate from project skeleton
 
 ```bash
-mvn io.quarkus.platform:quarkus-maven-plugin:2.2.3.Final \
+mvn io.quarkus.platform:quarkus-maven-plugin:2.2.3.Final:create \
     -DprojectGroupId=com.julius.app.quarkus \
     -DprojectArtifactId=quarkus-app \
     -DclassName="com.julius.app.quarkus.HelloWorld" \
-    -Dpath="/hello"
+    -Dpath="/hello" \
     -Dextensions="openshift"
  ```   
     
